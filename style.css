@@ -1,0 +1,50 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes loadComple {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.main {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: loadComple 2s ease-in-out;
+}
+
+.header {
+  display: block;
+  font-size: 50px;
+  text-align: center;
+}
+
+.image {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.click {
+  margin-top: 10px;
+}
+
+span {
+  animation: loadComple 1s linear infinite;
+}
